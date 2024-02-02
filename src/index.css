@@ -1,0 +1,132 @@
+
+
+.project-container {
+  position: relative;
+  margin: 0 15px 30px 15px;
+}
+
+.project-img-container {
+  overflow: hidden;
+}
+
+.project-img {
+ 
+  max-width: 100%;
+  height: 290px;
+  transition: opacity 0.3s ease;
+}
+
+.project-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  transition: opacity 0.3s ease;
+ 
+}
+
+
+.project-info:hover {
+  opacity: 1;
+  
+}
+
+.project-info h3 {
+  margin-bottom: 10px;
+}
+
+.github-logo {
+  width: 40px;
+  height: auto;
+}
+
+.resume-section{
+  height:80vh;
+}
+.contact-section{
+  height:90vh;
+}
+
+
+
+
+.logo-sm {
+  width: 50px;
+}
+
+.footer-img {
+  width: 50px;
+}
+
+.footer-section {
+  margin-top: auto;
+}
+
+.form-container {
+  max-width: 500px;
+  padding: 50px;
+}
+
+.input-cstm {
+  margin-top: 10px;
+  border-color: #242424;
+}
+
+
+.about-me {
+  display: flex;
+}
+
+
+.project-header {
+  padding-top: 15px;
+}
+
+.about-me-p {
+  padding-left: 25px;
+} 
+.footer-section {
+  height:10%;
+}
+@media screen and (max-width: 800px) {
+  .abt-me-port {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .about-me {
+    flex-direction: column;
+  }
+
+  /* .project-img,
+  .project-card {
+    width: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+  } */
+
+  /* .project-container{
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin: auto 15px;
+  } */
+
+  nav li {
+    display: inline-block;
+            margin-right: 10px; 
+  }
+
+  .about-me-p {
+    padding-left: 0;
+  }
+}
+
+
