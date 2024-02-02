@@ -1,9 +1,8 @@
 // Importing all images
 import ProjectCard from '../components/UI/ProjectCard'
 import Chatter from '../assets/chatterbox.png'
-import SVGLogo from '../assets/logo.png'
-import noteTaker from '../assets/note.png'
 import TripTix from '../assets/triptix.png'
+import Sweatcheck from '../assets/sweatcheck.png'
 import Footer from '../components/UI/Footer';
 // Array of projects
 const projects = [
@@ -23,7 +22,7 @@ const projects = [
   {
     name: 'Sweat Check',
     url: 'https://sweat-check-1af5b01668d2.herokuapp.com',
-    img:SVGLogo ,
+    img:Sweatcheck ,
     github: 'https://github.com/Seidler93/Sweat-Check',
   },
 

@@ -80,6 +80,13 @@
   border-color: #242424;
 }
 
+.myname{
+  margin-bottom: 0px;
+  font-size: 40px;
+  color: white ;
+  background-color: #242424;
+  display: center;
+}
 
 .about-me {
   display: flex;
